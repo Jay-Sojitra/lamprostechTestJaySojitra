@@ -1,3 +1,11 @@
+// Job Scheduling with Deadlines (Greedy Algorithm):
+// ● Problem Description: Schedule a list of jobs with deadlines and processing times to maximize the total
+// number of jobs completed before their deadlines.
+// ● Example: Jobs with deadlines and processing times [(1, 2), (2, 1), (3, 3)].
+// ● Expected Code Output: A schedule that maximizes completed jobs before deadlines (e.g., job 2, job 1, job
+// 3 to complete 2 jobs before deadlines).
+// ● Hint: Use a greedy approach to prioritize jobs with earlier deadlines (e.g., sort by deadlines in descending
+// order). Schedule jobs one by one, ensuring they don't exceed their deadlines, and maximizing completed tasks
 #include <iostream>
 #include <vector>
 
